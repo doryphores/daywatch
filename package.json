@@ -1,0 +1,21 @@
+{
+  "name": "nightwatch-test",
+  "version": "0.0.1",
+  "description": "Nightwatch spike",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "node ./index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "grunt-localstack": "*",
+    "nightwatch": "*",
+    "gm": "*",
+    "mkdirp": "*",
+    "node-resemble-js": "*"
+  }
+}
